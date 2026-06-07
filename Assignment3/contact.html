@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+            body{
+                padding: 0;
+                margin: 0;
+                background-image: url(images/img8.jpg);
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-size: cover;
+                color: white;
+                background-color: red;
+                
+            }
+            .main{
+                width: 100%;
+                padding: 10px;
+                margin: 2% auto;
+            }
+            .nav_bar{
+                float: right;
+            }
+            nav > .nav_bar{
+                padding: 5px;
+            
+            }
+           span, span > .nav_item{
+                text-decoration: none;
+                padding: 0 20px;
+                font-size: large;  
+                color: white;
+            }
+            .content {
+                width: 40%;
+                border: 2px solid white;
+                margin: auto;
+                padding: 10px;
+                border-top-left-radius: 80px;
+                border-bottom-right-radius: 80px;
+                background-color: rgba(44, 58, 71,0.8);
+                box-shadow: 10px 10px 5px rgb(44, 58, 71);
+            }
+            table{
+                margin: auto;
+                padding: 40px;
+            }
+            th,td{
+                padding: 10px;
+                text-align: center;
+            }
+            input[type],textarea {
+                background-color: transparent;
+                border: none;
+                border-bottom: 2px solid white ;
+                color: white;
+            }
+            input[type="submit"] {
+                color: white ;
+                border: 2px solid white;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 10px 10px 2px rgb(44, 58, 71);
+
+            }
+        </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span>Contact</span>
+            <span class="nav_bar">
+                <a class="nav_item"  href="index.html">Home</a>
+                <a class="nav_item"  href="about.html">About Us</a>
+                <a class="nav_item"  href="project.html">Project</a>
+                <a class="nav_item"  href="contactus.html">Contact Us</a>
+            </span>
+        </nav>
+    </div>
+    <div class="content">
+        <form action="action.html">
+            <table>
+                <tr>
+                    <th><label for="name">Name : </label></th>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <th><label for="emai">Email : </label></th>
+                    <td><input type="email" name="" id="" required></td>
+                </tr>
+                <tr>
+                    <th><label for="sub">Subject : </label></th>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <th><label for="query">Message : </label></th>
+                    <td><textarea name="query" id="" required></textarea></td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="Submit">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

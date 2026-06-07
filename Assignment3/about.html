@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/brands/solid/html5">
+    <link rel="shortcut icon" href="https://fontawesome.com/icons/brands/solid/html5" type="image/x-icon">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content img{
+            width: 200px;
+            height: 200px;
+            border: 2px solid white;
+            border-radius: 50px;
+            padding: 20px;
+            }
+        .content {
+            margin: 5% auto;
+        }
+        .content .cont1{
+            width: 50%;
+            float: left;
+            text-align: right;
+        }
+        .content .cont2{
+            width: 50%;
+            float: right;
+            text-align: center;
+            animation-name: user;
+        }
+        .skills{
+            clear: both;
+            width: 100%;
+        }
+        .skills img{
+            width: 100px;
+            height: 100px;
+            
+        }
+        .fe, .be, .db{
+            display: inline-block;
+        }
+        @keyframes user{
+            from{ 
+                transform: rotate(10deg);
+            }
+            to{
+                transform: rotate(180deg);
+            }
+            
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span class="span">About</span>
+
+            <span class="nav_bar">
+               <a class="nav_item"  href="index.html">Home</a>
+               <a class="nav_item"  href="about.html">About Us</a>
+               <a class="nav_item"  href="project.html">Project</a>
+               <a class="nav_item"  href="contact.html">Contact Us</a>
+            </span>
+        </nav>
+            <div class="content">
+               <section class="cont1">
+                    <h1>Hi, I'm Kathiravan</h1>
+                    <h2>My role is to developer a responsive Websites</h2>
+                    <h2>Manage both front end and backend to make more attractive and responsive website</h2>
+               </section>
+               <section class="cont2">
+                    <img src="images/user.png" alt="" class="">
+               </section>
+            </div>
+            <div class="skills">
+                <h1>   Skills : </h1>
+                <div class="skill">
+                    <div class="fe">
+                        <h2>
+                            Front - end
+                        </h2>
+                        <img src="images/html1.png" alt="">
+                        <img src="images/css1.png" alt="">
+                        <img src="images/js1.png" alt="">
+                    </div>
+                    <div class="be">
+                        <h2>
+                            Back - end
+                        </h2>
+                        <img src="images/node.png" alt="">
+                        <img src="images/php.png" alt="">
+                        <img src="images/python.png" alt="">
+                    </div>
+                    <div class="db">
+                        <h2>
+                            Database
+                        </h2>
+                        <img src="images/database.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+       
+</body>
+</html>

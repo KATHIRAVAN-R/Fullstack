@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+         body{
+                padding: 0;
+                margin: 0;
+                background-image: url(images/img8.jpg);
+                background-repeat: no-repeat;
+                background-clip: border-box;
+                background-size: cover;
+                color: white;
+                background-attachment: fixed;
+                
+            }
+           .main{
+                box-sizing: border-box;
+                width: 100%;
+                padding: 10px;
+                margin: 2% auto;
+            }
+            .nav_bar{
+                float: right;
+            }
+            nav > .nav_bar{
+                padding: 5px;
+            
+            }
+           span, span > .nav_item{
+                text-decoration: none;
+                padding: 0 20px;
+                font-size: large;  
+                color: white;
+            }
+           
+            h1 {
+                font-variant: small-caps;
+                text-align: center;
+                padding: 5px;
+                text-shadow: 1px 1px 5px;
+           
+              
+            }
+            .content{
+                border: 2px solid white;
+                border-radius: 50px;
+                box-shadow: 10px 10px 10px;
+            }
+            .content img{
+                width: 100px;
+            }
+            .one,.two,.three{
+               
+                padding: 20px;
+                margin: 10px;
+             
+            }
+            .one section, .two section, .three section {
+                text-align: center;
+                
+            }
+            .one .nss{
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+            .two .type{
+                width: 50%;
+                float: right;
+                text-align: center;
+            }
+            .three .portfolio{
+                width: 50%;
+                float: left;
+                text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span>About Us</span>
+            <span class="nav_bar">
+               <a class="nav_item"  href="index.html">Home</a>
+               <a class="nav_item"  href="about.html">About Us</a>
+               <a class="nav_item"  href="project.html">Project</a>
+               <a class="nav_item"  href="contact.html">Contact Us</a>
+            </span>
+        </nav>
+        <h1> Projects </h1>
+        <div class="content">
+            <div class="one">
+                <section class="nss"> 
+                    <h2>NSS BLOOD BANK </h2>
+                    <P>
+                         - Manage the student records <br>
+                        - Tools Used for : HTML, CSS, JS, JSP, MYSQL
+                    </P>
+                </section>
+                <section class="img">
+                   <img src="images/bloodbank.png" alt="">
+                </section>
+            </div>
+            <div class="two">
+                <section class="type">
+                    <h2>TYPING MASTER </h2>
+                        <P>
+                            - Typing words per minute <br>
+                            - Tools Used for : HTML, CSS, JS, Php, MYSQL
+                       </P>
+                </section>
+                <section>
+                    <img src="images/typing.png" alt="">
+                    </section>
+            </div>
+            <div class="three">
+                <section class="portfolio">
+                    <h2>SCHOOL PORTFOLIO </h2>
+                    <P>
+                         - Manage the student records for shool management <br>
+                        - Tools Used for : HTML, CSS, JS, Php, MYSQL
+                    </P>
+                </section>
+                    <section>
+                        <img src="images/school.png" alt="">
+                    </section>
+            </div>
+        </div>
+</body>
+</html>

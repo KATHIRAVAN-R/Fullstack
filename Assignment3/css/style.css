@@ -1,0 +1,81 @@
+
+
+    /* 
+    
+    background-color: #0d1b2a, #1b263b, #415a77;
+    color : #e0e1dd, #778da9; 
+    
+    */
+
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.main{
+    width: 100%;
+    padding: 10px;
+    margin: 2% auto;
+}
+.span{
+    font-variant: small-caps;
+}
+.span:hover{
+    background-color: white;
+    color: #0d1b2a;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.nav_bar{
+    float: right;
+}
+nav > .nav_bar{
+    padding: 5px;
+}
+span, span > .nav_item{
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: large;  
+    color: white;
+}
+.nav_item:hover {
+     background-color: white;
+    color: #0d1b2a;
+    border-radius: 20px;
+    padding: auto 10px;
+}
+.content {
+    margin: 10% auto;
+    text-align: center;
+
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 50px;
+    animation-name: user;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+img{
+    animation-name: user;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes user {
+    from{
+        transform: rotatey(0deg);
+    }
+    to{
+        transform: rotatey(360deg);
+    }
+    
+}
+   
